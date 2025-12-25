@@ -24,7 +24,7 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <a href="#" className="text-2xl font-bold gradient-text mb-4 inline-block">
-              &lt;Dev /&gt;
+              Sarthak
             </a>
             <p className="text-muted-foreground text-sm max-w-xs">
               CSE Student & Full-Stack Developer passionate about creating exceptional digital experiences.

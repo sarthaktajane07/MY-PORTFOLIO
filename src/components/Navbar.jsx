@@ -24,9 +24,8 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'glass-card py-3' : 'bg-transparent py-5'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass-card py-3' : 'bg-transparent py-5'
+        }`}
     >
       <nav className="container mx-auto px-4 flex items-center justify-between">
         <a
@@ -34,7 +33,7 @@ export const Navbar = () => {
           className="text-xl font-bold gradient-text"
           aria-label="Home"
         >
-          &lt;Dev /&gt;
+          Sarthak
         </a>
 
         {/* Desktop Navigation */}
