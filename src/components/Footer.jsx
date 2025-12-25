@@ -76,9 +76,6 @@ export const Footer = () => {
             © {currentYear} Sarthak Tajane. Made with{' '}
             <Heart className="w-4 h-4 text-destructive fill-destructive" /> and lots of code.
           </p>
-          <p className="text-muted-foreground text-sm">
-            Built with React & Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>
