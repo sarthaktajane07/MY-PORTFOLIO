@@ -9,9 +9,9 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:alex@example.com', label: 'Email' },
+  { icon: Github, href: 'https://github.com/sarthaktajane07', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/sarthak-tajane-a3a05a312/', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:sarthaktajane07@gmail.com', label: 'Email' },
 ];
 
 export const Footer = () => {
@@ -27,7 +27,7 @@ export const Footer = () => {
               &lt;Dev /&gt;
             </a>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Full-Stack Web Developer passionate about creating exceptional digital experiences.
+              CSE Student & Full-Stack Developer passionate about creating exceptional digital experiences.
             </p>
           </div>
 
@@ -73,8 +73,8 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} Alex Chen. Made with{' '}
-            <Heart className="w-4 h-4 text-destructive fill-destructive" /> and lots of coffee.
+            © {currentYear} Sarthak Tajane. Made with{' '}
+            <Heart className="w-4 h-4 text-destructive fill-destructive" /> and lots of code.
           </p>
           <p className="text-muted-foreground text-sm">
             Built with React & Tailwind CSS
