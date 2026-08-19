@@ -52,7 +52,7 @@ export const ContactSection = () => {
             </div>
 
             <a 
-              href="https://linkedin.com/in/sarthak-tajane" 
+              href="https://www.linkedin.com/in/sarthak-tajane-a3a05a312/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-card border border-border text-foreground hover:bg-secondary transition-all duration-200 font-medium text-sm gap-2 shadow-sm hover:-translate-y-0.5"

@@ -129,7 +129,7 @@ export const config = {
                   <Github className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/sarthak-tajane" 
+                  href="https://www.linkedin.com/in/sarthak-tajane-a3a05a312/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-md bg-card border border-border text-muted-foreground hover:text-[#0C8C7E] dark:hover:text-[#14B8A6] hover:border-[#0C8C7E]/40 hover:-translate-y-0.5 transition-all shadow-sm"
