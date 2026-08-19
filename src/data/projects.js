@@ -1,5 +1,58 @@
 export const projects = [
   {
+    id: 'aiforge',
+    title: 'AIForge — Production AI Knowledge & RAG Platform',
+    description: 'A production-style RAG platform for uploading documents, searching private knowledge bases, and generating context-aware AI responses with source citations.',
+    longDescription: 'AIForge is a production-oriented AI knowledge platform that enables users to upload documents (PDF, DOCX, TXT, CSV) and interact with their private knowledge base using Retrieval-Augmented Generation (RAG), semantic vector search, and LLM-powered responses with verifiable source citations.',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop',
+    screenshots: [
+      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=800&fit=crop'
+    ],
+    tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'Qdrant', 'PostgreSQL', 'Redis', 'Docker', 'RAG'],
+    status: 'In Production',
+    techDetails: [
+      { name: 'FastAPI Backend', description: 'Orchestrates document chunking, embeddings, and RAG pipelines.', icon: 'Server' },
+      { name: 'Qdrant Vector DB', description: 'Enables high-performance vector similarity & hybrid search.', icon: 'Database' },
+      { name: 'Next.js & Streaming', description: 'Delivers real-time streaming ChatGPT-style AI responses with source citations.', icon: 'Layout' },
+    ],
+    github: 'https://github.com/sarthaktajane07/Alforge',
+    live: '#',
+    featured: true,
+    category: 'AI Engineering & Full Stack',
+    duration: '2024 - Present',
+    role: 'AI & Full-Stack Architect',
+    overview: 'AIForge transforms unstructured user documents into a searchable, vector-indexed knowledge base. By combining hybrid retrieval with LLMs, it delivers grounded, factual answers with transparent source citations.',
+    problem: 'Standard LLMs suffer from hallucinations and lack knowledge of private corporate or personal documents.',
+    solution: 'Engineered a modular RAG pipeline that retrieves top-k relevant document chunks from Qdrant before sending context to the LLM.',
+    challenges: [
+      'Managing high-throughput document extraction and chunking across diverse file formats (PDF, DOCX, CSV).',
+      'Implementing hybrid search (combining dense vector similarity with sparse keyword BM25) and reranking for high precision.',
+      'Streaming real-time token responses from LLM APIs while tracking citation offsets.'
+    ],
+    technicalDecisions: [
+      'Selected Qdrant for vector storage due to its native filtering and high-performance Rust core.',
+      'Used Redis for API rate limiting, background tasks, and caching frequent queries.',
+      'Designed Docker Compose infrastructure for consistent multi-container orchestration.'
+    ],
+    learned: [
+      'Mastered end-to-end RAG architecture design, vector indexing, and embedding strategies.',
+      'Implemented RAG evaluation metrics (retrieval accuracy, context relevance, faithfulness, latency).'
+    ],
+    futureImprovements: [
+      'Add multi-modal document parsing for tables and diagrams.',
+      'Implement fine-tuned custom reranker models.'
+    ],
+    solutions: [
+      'Built parallel background workers in FastAPI for document parsing.',
+      'Combined Qdrant vector search with a custom cross-encoder reranking stage.'
+    ],
+    results: [
+      { metric: 'Search Quality', value: 'Hybrid + Rerank' },
+      { metric: 'Response Style', value: 'Real-time Streaming' },
+      { metric: 'Vector Store', value: 'Qdrant' }
+    ],
+  },
+  {
     id: 'coinzilla',
     title: 'CoinZilla — Cryptocurrency Analytics Platform',
     description: 'A cryptocurrency analytics platform for monitoring market prices, analyzing cryptocurrency performance, and tracking portfolio data through a centralized dashboard.',
