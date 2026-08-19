@@ -120,7 +120,7 @@ export const config = {
               
               <div className="flex items-center gap-2 pl-2">
                 <a 
-                  href="https://github.com/SarthakTajane" 
+                  href="https://github.com/sarthaktajane07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-md bg-card border border-border text-muted-foreground hover:text-[#0C8C7E] dark:hover:text-[#14B8A6] hover:border-[#0C8C7E]/40 hover:-translate-y-0.5 transition-all shadow-sm"

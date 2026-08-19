@@ -62,7 +62,7 @@ export const ContactSection = () => {
             </a>
 
             <a 
-              href="https://github.com/SarthakTajane" 
+              href="https://github.com/sarthaktajane07" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-card border border-border text-foreground hover:bg-secondary transition-all duration-200 font-medium text-sm gap-2 shadow-sm hover:-translate-y-0.5"

@@ -42,7 +42,7 @@ export const GithubSection = () => {
             </p>
             
             <a 
-              href="https://github.com/SarthakTajane" 
+              href="https://github.com/sarthaktajane07" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-md bg-[#12181F] text-white hover:bg-black transition-colors font-medium text-sm gap-2 shadow-sm"
@@ -70,7 +70,7 @@ export const GithubSection = () => {
                 <div className="flex items-center justify-between text-xs">
                   <span className="font-medium text-[#0C8C7E]">{repo.tech}</span>
                   <a 
-                    href={`https://github.com/SarthakTajane/${repo.name}`}
+                    href={`https://github.com/sarthaktajane07/${repo.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#5B6573] hover:text-[#12181F] font-medium inline-flex items-center gap-0.5"

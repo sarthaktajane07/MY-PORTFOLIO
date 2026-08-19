@@ -9,8 +9,8 @@ export const Footer = () => {
             Sarthak Tajane © 2026
           </div>
           
-          <div className="flex items-center gap-6 font-medium">
-            <a href="https://github.com/SarthakTajane" target="_blank" rel="noopener noreferrer" className="hover:text-[#0C8C7E] transition-colors">
+          <div className="flex items-center gap-4">
+            <a href="https://github.com/sarthaktajane07" target="_blank" rel="noopener noreferrer" className="hover:text-[#0C8C7E] transition-colors">
               GitHub
             </a>
             <a href="https://linkedin.com/in/sarthak-tajane" target="_blank" rel="noopener noreferrer" className="hover:text-[#0C8C7E] transition-colors">
