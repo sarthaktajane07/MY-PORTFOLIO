@@ -4,6 +4,12 @@ import { Github, Star, ArrowUpRight, Code2 } from 'lucide-react';
 export const GithubSection = () => {
   const repos = [
     {
+      name: "Alforge",
+      desc: "Production AI Knowledge Platform featuring RAG, semantic search, and streaming LLM responses.",
+      tech: "Python • Next.js • Qdrant",
+      stars: 15
+    },
+    {
       name: "Coinzilla-clone",
       desc: "Cryptocurrency analytics platform with interactive charting & price feeds.",
       tech: "React • JavaScript",
@@ -14,12 +20,6 @@ export const GithubSection = () => {
       desc: "Role-based restaurant management system built on the MERN stack.",
       tech: "MongoDB • Express • React • Node",
       stars: 8
-    },
-    {
-      name: "Financial_fraud_Detecto",
-      desc: "Algorithmic transaction analyzer detecting irregular patterns with hash maps.",
-      tech: "JavaScript • DSA",
-      stars: 6
     }
   ];
 
