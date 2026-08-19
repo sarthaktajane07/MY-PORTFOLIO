@@ -81,9 +81,9 @@ export const config = {
             
             {/* Main Titles */}
             <div className="animate-slide-up animation-delay-100">
-              <p className="text-sm font-bold text-[#0C8C7E] dark:text-[#14B8A6] uppercase tracking-wider mb-2">Hi, I'm Sarthak Tajane.</p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-tight">
-                Computer Science Student & Software Developer
+              <p className="text-sm sm:text-base font-bold text-[#0C8C7E] dark:text-[#14B8A6] uppercase tracking-wider mb-2">Computer Science Student & Software Developer</p>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-foreground leading-tight">
+                Hi, I'm Sarthak Tajane.
               </h1>
             </div>
             
