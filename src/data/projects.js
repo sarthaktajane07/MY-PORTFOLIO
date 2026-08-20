@@ -4,9 +4,9 @@ export const projects = [
     title: 'AIForge — Production AI Knowledge & RAG Platform',
     description: 'A production-style RAG platform for uploading documents, searching private knowledge bases, and generating context-aware AI responses with source citations.',
     longDescription: 'AIForge is a production-oriented AI knowledge platform that enables users to upload documents (PDF, DOCX, TXT, CSV) and interact with their private knowledge base using Retrieval-Augmented Generation (RAG), semantic vector search, and LLM-powered responses with verifiable source citations.',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop',
+    image: '/images/aiforge.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=800&fit=crop'
+      '/images/aiforge.jpg'
     ],
     tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'Qdrant', 'PostgreSQL', 'Redis', 'Docker', 'RAG'],
     status: 'In Production',
